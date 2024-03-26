@@ -1,0 +1,48 @@
+
+/*Este é um comentário de linha!*/
+/*
+    Este é um comentário de bloco
+!*/
+
+/*Anatomia de uma regra CSS*/
+/*
+    Seletor {
+        Propriedade: Valor;
+    }
+*/
+/* Exemplo de uma regra CSS*/
+      h1 {
+        color: red !important;
+        text-align: center !important;
+      }
+/* Seletores de tipo */
+      .link {
+        font-size: 24px;
+        border: 2px solid red;
+        display: inline-block;
+        margin: 0 2%;
+        background-color: rgba(167, 91, 238, 0.699);
+        padding: 5px 5px;
+        width: 15%;
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+            background-color: rgba(214, 69, 69, 0.733);
+        }
+
+        .link a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+
+            img{
+                display: inline-block;
+                width: 5%;
+            }
+        }
+      }
+      #menu ul {
+        list-style-type: none;
+        text-align: center;
+
+      }
