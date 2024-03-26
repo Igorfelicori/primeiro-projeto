@@ -15,6 +15,14 @@
         color: red !important;
         text-align: center !important;
       }
+
+      #cabecalho{
+        background-image: url("../img/imgbanner1280×640.png.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-size: cover;
+      }
 /* Seletores de tipo */
       .link {
         font-size: 24px;
